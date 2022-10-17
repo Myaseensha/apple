@@ -1,0 +1,447 @@
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'SF pro Display', sans-serif;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(2rem);
+  
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+    width: 100%;
+
+}
+
+.nav-list-mobile {
+    display: none;
+}
+
+.nav-lin {
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+    text-decoration: none;
+
+}
+
+.nav-lin:hover {
+    color: #fff;
+    opacity: .7;
+}
+
+.nav-link-apple {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(appleimg/apple.svg) center no-repeat;
+}
+
+.nav-link-search {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(appleimg/search.svg) center no-repeat;
+}
+
+.nav-link-bag {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(appleimg/bag.svg) center no-repeat;
+}
+
+.iphone-14-pro {
+    background: url(appleimg/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+    margin-top: 4.4rem;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+
+}
+
+.title-heading {
+    font-size: 4.6rem;
+    line-height: 1.07143;
+    letter-spacing: .005rem;
+}
+
+.title-sub-haeding,
+h3 {
+    font-size: 2.6rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+
+}
+
+
+.cta {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link {
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+.cta-link:nth-child(2) {
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+    border-bottom: 2px solid #66bbff;
+}
+
+.iphone-14 {
+    background: url(appleimg/hero_iphone14_preorder__c4g2wjzuugqe_large.jpg);
+}
+
+.title-dark {
+
+    color: #000;
+}
+
+.cta-link-darker {
+    color: #0070c9;
+}
+
+.cta-link-darker:hover {
+    border-bottom-color: #0070c9;
+}
+
+.Watch {
+    background: url(appleimg/hero_apple_watch_ultra__dtz0f3e8oscy_large.jpg);
+}
+
+.title-heading-watch {
+    height: 7.8rem;
+    background: url(appleimg/hero_logo_apple_watch_ultra__etygmmkwgfma_large.png) center no-repeat;
+    background-size: auto 7.8rem;
+    margin-top: 1rem;
+}
+
+.main {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-14-pro {
+    border-top: none;
+}
+
+@media screen and (max-width:1068px) {
+    .iphone-14-pro {
+        background: url(appleimg/hero_iphone14pro__e5xbgo5ffhg2_medium_2x.jpg);
+    }
+
+    .iphone-14 {
+        background: url(appleimg/hero_iphone14_preorder__c4g2wjzuugqe_medium_2x.jpg);
+    }
+
+    .Watch {
+        background: url(appleimg/hero_apple_watch_ultra__dtz0f3e8oscy_medium_2x.jpg);
+    }
+
+    .title-heading-watch {
+        height: 6.2rem;
+        background: url(appleimg/hero_logo_apple_watch_ultra__etygmmkwgfma_medium_2x.png) center no-repeat;
+        background-size: auto 6.2rem;
+    }
+    .watch-img{
+        background: url(appleimg/promo_apple_watch_series_8__ch7rexplmihe_medium.jpg) center no-repeat;
+    }
+    .air-img{
+        background: url(appleimg/promo_airpods_pro_avail__gaxggskofx6y_medium.jpg) center no-repeat;
+    }
+    .se-img{
+        background: url(appleimg/promo_apple_watch_se__f9702l6odgi2_medium.jpg) center no-repeat;
+    }
+    .fit-img{
+    background: url(appleimg/promo-apple-fitness-plus-iphone__bzeal882mv7m_medium.jpg) center no-repeat;
+    }
+    .mac-img{
+    background: url(appleimg/promo_macbookair__fywl7i82fueu_medium.png) center no-repeat;
+    }
+    .cad-img{
+        background: url(appleimg/tile__cauwwcyyn9hy_medium.jpg)center no-repeat;
+    }
+    .main-b{
+        height: 35rem;
+        margin-top: 20px;
+    }
+
+    .main {
+        height: 65rem;
+        background-size: auto 69.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title-heading {
+        font-size: 3.6rem;
+    }
+
+    .title-sub-haeding,
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .cta-link {
+        font-size: 1.78rem;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    header {
+        height: 4.8rem;
+        transition: background .36 cubic-bezier(0.32, 0.08, 0.24, 1),
+            height .56s cubic-bezier(0.32, 0.08, 0.24, 1);
+    }
+
+    header.container {
+        padding: 0;
+    }
+
+    .iphone-14-pro {
+        margin-top: 4.8rem;
+    }
+
+    .nav-list {
+        margin-top: 0;
+    }
+
+    .nav-list-mobile {
+        display: flex;
+    }
+
+    .nav-item {
+        width: 4.8rem;
+        height: 4.8rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item-hidden {
+        display: none;
+    }
+
+    .mobile-menu {
+        position: relative;
+        z-index: 1500;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+    }
+
+    .line {
+        position: absolute;
+        width: 1.7rem;
+        height: 1px;
+        background-color: #fff;
+        transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+    .line-top {
+        margin-top: 3px;
+    }
+
+    .line-bottom {
+        margin-top: -.4rem;
+    }
+
+    .active .line-top {
+        margin-top: 0;
+        transform: rotate(45deg);
+        transition: transform .3192 .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+    .active .line-bottom {
+        margin-top: 0;
+        transform: rotate(-45deg);
+        transition: transform .3192 .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+    header.active {
+        height: 100%;
+        background-color: #000;
+    }
+
+    .nav-link-apple {
+        width: 1.8rem;
+        height: 4.8rem;
+        position: relative;
+        z-index: 1500;
+    }
+
+    .nav-link-bag {
+        width: 1.8rem;
+        height: 4.8rem;
+        transition: opacity 3s;
+    }
+
+    .nav {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav-link {
+        font-size: 1.7rem;
+        padding: 0;
+        margin: auto 0;
+    }
+
+    .nav-list-larger {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        display: block;
+        padding: 10.5rem 5rem;
+        z-index: 1000;
+        box-sizing: border-box;
+        transition: opacity .3s;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    .active .nav-list-larger{
+        width: 100%;
+        height: 100vh;
+        opacity: 1;
+        visibility: visible;
+    }
+    .active .nav-link-bag{
+        opacity: 0;
+        transition: opacity .3s;
+    }
+    .nav-list-larger .nav-item{
+        width: 100%;
+        justify-content: flex-start;
+        border-bottom: 2px solid rgba(255, 225, 225, .1);
+    }
+    .nav-list-larger .nav-item:nth-child(9){
+        border-bottom: none;
+    }
+    .active .nav-item .nav-list-larger{
+        animation: fadeIn is ease-in;
+    }
+    @keyframes fadeIn  {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+}
+@media screen and (max-width:735px){
+    .iphone-14-pro {
+        background: url(appleimg/hero_iphone14pro__e5xbgo5ffhg2_small.jpg);
+    }
+
+    .iphone-14 {
+        background: url(appleimg/hero_iphone14_preorder__c4g2wjzuugqe_small_2x.jpg);
+    }
+
+    .Watch
+     {
+        background: url(appleimg/hero_apple_watch_ultra__dtz0f3e8oscy_small.jpg);
+    }
+    .title-heading-watch{
+        background: url(appleimg/hero_logo_apple_watch_ultra__etygmmkwgfma_small.png) center no-repeat;
+    }
+    .watch-img{
+        background: url(appleimg/promo_apple_watch_series_8__ch7rexplmihe_small.jpg) center no-repeat;
+    }
+    .air-img{
+        background: url(appleimg/promo_airpods_pro_avail__gaxggskofx6y_small_2x.jpg) center no-repeat;
+    }
+    .se-img{
+        background: url(appleimg/promo_apple_watch_se__f9702l6odgi2_small.jpg) center no-repeat;
+    }
+    .fit-img{
+    background: url(appleimg/promo-apple-fitness-plus-iphone__bzeal882mv7m_small.jpg) center no-repeat;
+    }
+    .mac-img{
+    background: url(appleimg/promo_macbookair__fywl7i82fueu_small.png) center no-repeat;
+    }
+    .cad-img{
+        background: url(appleimg/tile__cauwwcyyn9hy_small.jpg)center no-repeat;
+    
+    }
+    .main-b{
+        height: 20rem;
+        margin-top: 30px;
+    }
+    .main{
+        height: 56rem;
+        background-size: auto 64.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    .title{
+        padding: 2rem;
+    }
+
+    .title-heading { 
+        font-size: 2.76rem;
+    }
+
+    .title-sub-haeding,
+    h3 {
+        font-size: 1.76rem;
+    }
+.cta{
+    margin-top: -1.49rem;
+}
+.cta-link{
+    font-size: 1.20rem;
+}
+}
